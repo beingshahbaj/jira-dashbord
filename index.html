@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Unbounded:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <ul>
+                <span class="material-symbols-outlined" style="font-size: 25px !important; ">
+                    apps
+                </span>
+                <img src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg" alt="">
+            </ul>
+            <ul>
+
+                <li><a href="#">your work</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <li><a href="#">project</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <li><a href="#">filter</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <li><a href="#">dashbord</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <li><a href="#">people</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <li><a href="#">app</a><span class="material-symbols-outlined">
+                        expand_more
+                    </span></li>
+                <button class="button-26" role="button">creat</button>
+
+
+            </ul>
+        </div>
+        <ul>
+            <input type="search" name="" id="" placeholder="search">
+            <a href="#"><span class="material-symbols-outlined">
+                    notifications
+                </span></a>
+            <a href="#"><span class="material-symbols-outlined">
+                    help
+                </span></a>
+            <a href="#"><span class="material-symbols-outlined">
+                    settings
+                </span></a>
+            <a href="#"><span class="material-symbols-outlined">
+                    person
+                </span></a>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <span class="  arrow arrow1 material-symbols-outlined" onclick="sidebarbtn('left')" id="leftBtn">
+                arrow_circle_left
+            </span>
+            <span class="  arrow arrow2  material-symbols-outlined" onclick="sidebarbtn('right')" id="rightBtn">
+                arrow_circle_right
+            </span>
+            <ul>
+
+            </ul>
+            <ul>
+                <li><span class="material-symbols-outlined">add_road</span><a href="#">roadmap</a></li>
+                <li><span class="material-symbols-outlined">grid_view</span><a href="#">blocking</a></li>
+                <li><span class="material-symbols-outlined">leaderboard</span><a href="#">leaderbord</a></li>
+                <hr>
+                <li><span class="material-symbols-outlined">code</span><a href="#">code</a></li>
+                <li><span class="material-symbols-outlined">call</span><a href="#">on call</a></li>
+                <hr>
+                <li><span class="material-symbols-outlined">article</span><a href="#">project</a></li>
+                <li><span class="material-symbols-outlined">library_add</span><a href="#">add item</a></li>
+                <li><span class="material-symbols-outlined">settings</span><a href="#">setting</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topmain">
+
+                <input type="text" id="addpeople" placeholder="add people..." >
+                <button id="addpeoplebtn" class="button-26">add people</button>
+                <div id="peopleBox"><li>s</li></div>
+
+
+
+            </div>
+            <div class="bottommain">
+
+                <div class="box first-box">
+                    <p class="box-heading">to do</p>
+                    <button id="btn"> <span class="material-symbols-outlined">add</span>creat isssue</button>
+                    <input type="text" class="hide creatInput " placeholder="what we need to be done ?">
+                    <!-- <div class="item-card"></div> -->
+                </div>
+                <div class="box secondbox">
+                    <p class="box-heading">in progress</p>
+                </div>
+                <div class="box">
+                    <p class="box-heading">done</p>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
